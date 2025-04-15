@@ -33,6 +33,7 @@ function App() {
         updateStorage(newExcuses);
     };
 
+
     return (
         <div className="app-container">
             <h1>Generator Wymówek</h1>
