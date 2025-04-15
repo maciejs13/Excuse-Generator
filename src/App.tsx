@@ -38,6 +38,7 @@ function App() {
             <h1>Generator Wymówek</h1>
             <FetchExcuses onAdd={addExcuse} />
             <ExcuseShow excuses={excuses} onDelete={deleteExcuse} />
+
         </div>
     );
 }
