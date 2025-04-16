@@ -1,6 +1,108 @@
-#form-container {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #242424;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #342d2d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.form {
   display: flex;
   flex-direction: column;
+  gap: 12px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="range"] {
+  width: 100%;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
   gap: 10px;
-  width: 300px;
+  font-size: 0.95rem;
+}
+
+.form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.excuse-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 6px solid #4CAF50;
+  border-radius: 8px;
+  position: relative;
+}
+
+.excuse-item p {
+  margin: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+.excuse-item button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.excuse-item button:hover {
+  background-color: #d32f2f;
 }
